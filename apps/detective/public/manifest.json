@@ -1,0 +1,19 @@
+{
+  "name": "Color Vision Detective",
+  "short_name": "Color Detective",
+  "description": "A 3-minute color vision screening and a chart fixer that adjusts colors for your eyes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

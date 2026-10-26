@@ -1,0 +1,26 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": false,
+    "declaration": false,
+    "declarationMap": false,
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "paths": {
+      "@cvd-tools/color-core": [
+        "./packages/color-core/src/index.ts"
+      ]
+    }
+  },
+  "references": [],
+  "include": [
+    "packages/color-core/src/**/*.ts",
+    "apps/detective/src/**/*.ts",
+    "apps/detective/src/**/*.json",
+    "apps/detective/build/**/*.ts",
+    "apps/detective/vite.config.ts"
+  ]
+}
